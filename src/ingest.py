@@ -112,7 +112,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     # Step 1: Parse PDF
-    file_path = "src/data/april-2023.pdf"
+    file_path = "src/data/ITviecCV_Nguyen Phuong.pdf"
     raw_pages, metadata = parse_pdf(file_path)
 
     # Step 2: Create text chunks
